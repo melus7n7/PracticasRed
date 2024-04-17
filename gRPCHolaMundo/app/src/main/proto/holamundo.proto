@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "com.proto.saludo";
+
+message SaludoRequest{
+    string nombre = 1;
+}
+
+message SaludoResponse{
+    string resultado = 1;
+}
+
+message OperacionRequest{
+    int32 numeroX = 1;
+    int32 numeroY = 2;
+}
+
+message OperacionResponse{
+    int32 resultadoNumero = 1;
+}
+
+service SaludoService{
+    rpc saludo(SaludoRequest) returns (SaludoResponse);
+    rpc suma(OperacionRequest) returns (OperacionResponse);
+    rpc resta(OperacionRequest) returns (OperacionResponse);
+    rpc division(OperacionRequest) returns (OperacionResponse);
+    rpc multiplicacion(OperacionRequest) returns (OperacionResponse);
+}

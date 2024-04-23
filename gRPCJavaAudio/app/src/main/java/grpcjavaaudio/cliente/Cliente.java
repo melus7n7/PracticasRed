@@ -39,7 +39,7 @@ public class Cliente {
         */
         
         //Reproducción ya descargado previamente
-        nombre = "tiesto.mp3";
+        nombre = "KirbyDreamLand3_intro.mp3";
         ByteArrayInputStream streamMP3 = downloadFile(ch, nombre);
         playMp3(streamMP3, nombre);
         try {

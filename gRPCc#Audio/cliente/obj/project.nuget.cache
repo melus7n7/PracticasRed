@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mf9IWewPtM/p+8HSTgqqVDc3VnwjLdnBkCwO8kU8YPDry4jZxXLYGA8aAgdgKYOSUkPFADm2bEimACjfJq1Jpw==",
+  "success": true,
+  "projectFilePath": "D:\\Ejercicios de Java\\1.EjerciciosRed\\PracticasRedEnGit\\gRPCc#Audio\\cliente\\cliente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sulem\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\grpc.core.api\\2.62.0\\grpc.core.api.2.62.0.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\grpc.net.client\\2.62.0\\grpc.net.client.2.62.0.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\grpc.net.common\\2.62.0\\grpc.net.common.2.62.0.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\grpc.tools\\2.62.0\\grpc.tools.2.62.0.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\sulem\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -29,15 +29,15 @@ public class Cliente {
 
         ManagedChannel ch = ManagedChannelBuilder.forAddress(host, puerto).usePlaintext().build();
 
-        /*
+        
         //Reproducción mientras es descargado
         nombre = "anyma.wav";
         streamWav(ch, nombre, 48000F);
 
         System.out.println("Apagando...");
         ch.shutdown();
-        */
         
+        /*
         //Reproducción ya descargado previamente
         nombre = "tiesto.mp3";
         ByteArrayInputStream streamMP3 = downloadFile(ch, nombre);
@@ -47,7 +47,7 @@ public class Cliente {
         } catch (IOException e) {
             // TODO: handle exception
         }
-
+        */
         /*
         nombre = "KirbyDreamLand3_intro.wav";
         ByteArrayInputStream streamWav = downloadFile(ch, nombre);
